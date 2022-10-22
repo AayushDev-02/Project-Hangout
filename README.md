@@ -10,6 +10,8 @@ One of the best feature of HanÊOut is that anyone can host their own room, publ
 Project Report :
 [Project Report.pdf](https://github.com/AayushDev-02/Project-Hangout/files/9843663/Project.Report.pdf)
 
+Project Presentation : Please refer and download the Project PPT in master!
+
 Home Page:
 ![Home Page](https://user-images.githubusercontent.com/105657470/197323480-b57ac577-176e-4ed4-8326-63bf007b21dd.jpg)
 ![Home Page 2](https://user-images.githubusercontent.com/105657470/197323484-02ba1359-cc5a-4c1c-a111-ae75b1587412.jpg)
