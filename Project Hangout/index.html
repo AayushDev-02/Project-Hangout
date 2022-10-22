@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #202C39;
+
+        }
+
+        .left {
+
+            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 12px 10px;
+
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            left: 143px;
+            top: 50px;
+
+            background: #202C39;
+
+
+        }
+
+        .center {
+
+            display: block;
+            width: 40%;
+            margin: 45px auto;
+            background-color: #202C39;
+
+            font-style: italic;
+
+        }
+
+        .right {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            position: absolute;
+            width: 64px;
+            height: 36px;
+            right: 142px;
+            top: calc(50% - 36px/2 - 338.5px);
+
+
+            display: inline-block;
+        }
+
+        ul {
+            display: inline-block;
+            background-color: #202C39;
+        }
+
+        ul li {
+            display: inline-block;
+            background-color: #202C39;
+        }
+
+        ul li a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 34px 50px;
+            font-size: 20px;
+            background-color: #202C39;
+            color: white;
+        }
+
+        ul li a:hover,
+        ul li a:active {
+            text-decoration: underline;
+            color: lightskyblue;
+            background-color: #202C39;
+        }
+
+        .eye {
+            background-color: #202C39;
+        }
+
+        .project {
+            position: absolute;
+            width: 753px;
+            height: 192px;
+            left: 480px;
+            top: 300px;
+
+        }
+
+        .hangout {
+            position: absolute;
+            width: 753px;
+            height: 192px;
+            left: 457px;
+            top: 460px;
+        }
+
+        .headphone {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            left: 1032.45px;
+            top: 189.07px;
+
+
+        }
+
+        .mic {
+            display: inline;
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 1200px;
+            top: 630px;
+
+        }
+
+        .pillar {
+            position: absolute;
+            height: 50%;
+            left: 265px;
+            top: 480px;
+
+        }
+
+        .rays {
+            position: absolute;
+            width: 1360px;
+            height: 1360px;
+            left: 190px;
+            top: 120px;
+
+        }
+
+        .appstr {
+            display: inline;
+            position: absolute;
+            width: 170px;
+            height: 50px;
+            left: 200px;
+            top: 900px;
+        }
+
+        .playstr {
+
+            position: absolute;
+            width: 170px;
+            height: 50px;
+            left: 410px;
+            top: 900px;
+        }
+
+        .text {
+            position: absolute;
+            width: 385px;
+            height: 68px;
+            left: calc(50% - 363px/2 + 277px);
+            top: 900px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 128.9%;
+            /* or 13px */
+
+
+            color: #F2D492;
+        }
+
+        /* ----------------------------------------------------------------------------------------------------------------------------- */
+        .page2 {
+            position: absolute;
+            height: 1200px;
+            left: 0px;
+            right: 0px;
+            top: 1040px;
+
+            background: #283845;
+        }
+
+        .topdesign {
+            position: absolute;
+            width: 160px;
+            height: 80px;
+            left: 1518px;
+            top: 24px;
+        }
+
+        .bottomdesign {
+            position: absolute;
+            width: 160px;
+            height: 80px;
+            left: 0px;
+            top: 1090px;
+        }
+
+        .design1 {
+            position: absolute;
+            width: 475.45px;
+            height: 968.45px;
+            left: 950px;
+            top: 75px;
+        }
+
+        .megaphone {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 880.05px;
+            top: 785.75px;
+
+        }
+
+        .heading1 {
+            position: absolute;
+            width: 371px;
+            height: 38px;
+            left: 170px;
+            top: 195px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 38px;
+            /* identical to box height */
+
+
+            color: #F29559;
+        }
+
+        .content1 {
+            position: absolute;
+            width: 375px;
+            height: 123px;
+            left: 170px;
+            top: 250px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+
+            color: #F2D492;
+        }
+
+        .heading2 {
+            position: absolute;
+            width: 483px;
+            height: 38px;
+            left: 170px;
+            top: 400px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 38px;
+            /* identical to box height */
+
+
+            color: #F29559;
+
+
+        }
+
+        .content2 {
+            position: absolute;
+            width: 480px;
+            height: 159px;
+            left: 170px;
+            top: 455px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+
+            color: #F2D492;
+
+
+        }
+
+        .heading3 {
+            position: absolute;
+            width: 310px;
+            height: 38px;
+            left: 170px;
+            top: 605px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 38px;
+            /* identical to box height */
+
+
+            color: #F29559;
+
+        }
+
+        .content3 {
+            position: absolute;
+            width: 310px;
+            height: 102px;
+            left: 170px;
+            top: 660px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+
+            color: #F2D492;
+
+
+        }
+
+        .heading4 {
+            position: absolute;
+            width: 384px;
+            height: 38px;
+            left: 170px;
+            top: 810px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 38px;
+            /* identical to box height */
+
+
+            color: #F29559;
+
+        }
+
+        .content4 {
+            position: absolute;
+            width: 385px;
+            height: 102px;
+            left: 170px;
+            top: 865px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+
+            color: #F2D492;
+        }
+
+        /* ------------------------------------------------------------------------------------------------------------------------ */
+
+        .page3 {
+            position: absolute;
+            height: 1095px;
+            left: 0px;
+            right: 0px;
+            top: 2240px;
+
+            background: #202C39;
+        }
+
+        /* .circle{
+            position: absolute;
+            width: 100px;
+            height: 800px;
+            left: -240px;
+            top: -220px;
+
+            opacity: 0.3;
+        } */
+
+        .circleimage {
+            position: absolute;
+            width: 1200px;
+            height: 1200px;
+            left: 250px;
+            top: -75px;
+
+            opacity: 0.3;
+
+        }
+
+        .cup{
+            position: absolute;
+            left: 3.8%;
+            right: 75.42%;
+            top: 16.56%;
+            bottom: 54.12%;
+
+            /* opacity: 0.75;
+            transform: rotate(9.64deg); */
+        }
+
+        .P3img1{
+            position: absolute;
+            left: 28.05%;
+            right: 60.88%;
+            top: 74.52%;
+            bottom: 7.22%;
+
+            background: url(Sketch-2.png);
+            /* transform: rotate(77.35deg); */
+        }
+
+        
+        
+        .P3img2{
+            position: absolute;
+            left: 81.47%;
+            right: 3.17%;
+            top: 56.54%;
+            bottom: 31.06%;
+
+            background: url(Sketch-2.png);
+            /* transform: rotate(18.71deg); */
+        }
+        .P3img3{
+            position: absolute;
+            left: 8.47%;
+            right: 3.17%;
+            top: 24.54%;
+            bottom: 31.06%;
+
+            background: url(Sketch-2.png);
+            /* transform: rotate(18.71deg); */
+        }
+
+        .mainheading {
+            position: absolute;
+            width: 829px;
+            height: 75px;
+            left: 425px;
+            top: 120px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 59.2105px;
+            line-height: 74px;
+
+            /* identical to box height */
+
+
+            color: #F29559;
+        }
+
+        .P3content {
+            position: absolute;
+            width: 960px;
+            height: 222px;
+            left: 362px;
+            top: 405px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 59.2105px;
+            line-height: 74px;
+            text-align: center;
+
+            color: #F2D492;
+
+        }
+
+        .joinButton {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10.5784px 54.5196px;
+
+            position: absolute;
+            width: 332px;
+            height: 81.37px;
+            left: 620px;
+            top: 770px;
+        }
+
+        .prototype {
+            position: absolute;
+            width: 801.765px;
+            height: 451.765px;
+            left: 435px;
+            top: 330px;
+
+            background: #C4C4C4;
+        }
+
+        /* -------------------------------------------------------------------------------------------------------------------------------- */
+
+        .page4 {
+            position: absolute;
+            height: 1095px;
+            left: 0px;
+            right: 0px;
+            top: 3265px;
+
+            background: #283845;
+        }
+
+        .lefthand {
+            position: absolute;
+            left: 5.43%;
+            right: 62.43%;
+            top: 11.05%;
+            bottom: 11.74%;
+            opacity: 1;
+        }
+
+        .righthand {
+            position: absolute;
+            left: 61.43%;
+            right: 62.43%;
+            top: 6.05%;
+            bottom: 11.74%;
+            opacity: 1;
+        }
+
+        .P4heading {
+            position: absolute;
+            width: 527px;
+            height: 75px;
+            left: 575px;
+            top: 133px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 68.21px;
+            line-height: 86px;
+
+            color: #F29559;
+        }
+
+        .P4content {
+            position: absolute;
+            width: 1135px;
+            height: 354px;
+            left: 300px;
+            top: 300px;
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 47.21px;
+            line-height: 59px;
+            text-align: center;
+
+            color: #F2D492;
+        }
+
+        .Team_Member {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10.5784px 54.5196px;
+
+            position: absolute;
+            width: 468.04px;
+            height: 81.16px;
+            left: 580px;
+            top: 770px;
+
+        }
+
+
+
+
+        /* --------------------------------------------------------------------------------------------------------------------------- */
+        footer {
+            position: absolute;
+            height: 434px;
+            left: 0px;
+            right: 0px;
+            top: 4363px;
+
+            background: #283845;
+        }
+
+        .copyright {
+            position: absolute;
+            width: 430px;
+            height: 30px;
+            left: 620px;
+            top: 380px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #F29559;
+        }
+
+        .pro {
+            position: absolute;
+            width: 201px;
+            height: 30px;
+            left: 122px;
+            top: 93px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+
+            color: #F29559;
+
+        }
+
+        .procont {
+            position: absolute;
+            width: 379px;
+            height: 48px;
+            left: 120px;
+            top: 133px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+
+            color: #F2D492;
+
+        }
+
+        .about {
+            position: absolute;
+            width: 130px;
+            height: 30px;
+            left: 596px;
+            top: 93px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #F29559;
+
+        }
+
+        .abtcont {
+            position: absolute;
+            width: 112px;
+            height: 72px;
+            left: 596px;
+            top: 133px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+
+            color: #F2D492;
+
+        }
+
+        .service {
+            position: absolute;
+            width: 161px;
+            height: 30px;
+            left: 851px;
+            top: 93px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #F29559;
+
+        }
+
+        .sercont {
+            position: absolute;
+            width: 161px;
+            height: 72px;
+            left: 851px;
+            top: 133px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+
+            color: #F2D492;
+        }
+
+        .company {
+            position: absolute;
+            width: 171px;
+            height: 30px;
+            left: 1156px;
+            top: 93px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #F29559;
+
+        }
+
+        .compcont {
+            position: absolute;
+            width: 127px;
+            height: 72px;
+            left: 1156px;
+            top: 133px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+
+            color: #F2D492;
+        }
+    </style>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <a href="index.html">
+                <img src="Frame 16.svg" alt="">
+            </a>
+
+        </div>
+        <div class="center">
+            <nav>
+                <ul>
+                    <li><a href="#x" class="active">Home</a></li>
+                    <li><a href="Project.html">Project</a></li>
+                    <li><a href="Team_Member.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="right">
+            <button class="eye">
+                <img src="eye button.svg" alt="">
+            </button>
+        </div>
+    </header>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="Hero">
+        <div class="rays">
+            <img src="rays.svg" alt="">
+        </div>
+        <div class="headphone">
+            <img src="headphone.svg" alt="">
+        </div>
+        <div class="project">
+            <img src="Group 154.svg" alt="">
+        </div>
+        <div class="hangout">
+            <img src="HANGOUT.svg" alt="">
+        </div>
+
+        <div class="mic">
+            <img src="mic.svg" alt="">
+        </div>
+
+        <div class="pillar">
+            <img src="pillar.svg" alt="">
+        </div>
+
+        <div class="appstr">
+            <button>
+                <a href="https://www.apple.com/app-store/">
+                    <img src="appstr.jpg" alt="">
+                </a>
+            </button>
+        </div>
+
+        <div class="playstr">
+            <button>
+                <a href="https://play.google.com/store">
+                    <img src="playstr.jpg" alt="">
+                </a>
+            </button>
+        </div>
+
+        <div class="text">Project Hangout is an app that lets you host live audio- only conversations with a group of
+            people, while other users can join and listen in. The topics can range from tech to sports, business, sales
+            and marketing, literature, parenting, and so on.</div>
+    </section>
+
+    <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <div id="x">
+        <section class="page2">
+
+            <div class="topdesign">
+                <img src="Sidetop.svg" alt="">
+            </div>
+
+            <div class="bottomdesign">
+                <img src="Sidetop.svg" alt="">
+            </div>
+
+
+            <div class="design1">
+                <img src="Group 157.svg" alt="">
+            </div>
+
+            <div class="megaphone">
+                <img src="megaphone.svg" alt="">
+            </div>
+
+            <div class="heading1">
+                Host a room of your own
+            </div>
+
+            <div class="content1">
+                Every day, people are telling jokes, reading the morning news, making music together, and sharing deep
+                thoughts. What about you?
+            </div>
+
+            <div class="heading2">
+                Listen in, or share your thoughts
+            </div>
+
+            <div class="content2">
+                Drop into your favorite houseparties while you’re commuting, walking your poodle or running in the park.
+                Raise your hand if you’d like to chime in!
+            </div>
+
+            <div class="heading3">
+                Explore the hallways
+            </div>
+
+            <div class="content3">
+                Discover millions of houseparties, filled with fascinating and unexpected conversations.
+            </div>
+
+            <div class="heading4">
+                Talk with amazing people
+            </div>
+
+            <div class="content4">
+                Hangout is a thoughtful and generous place — where you bump into old friends and make new ones too.
+            </div>
+
+        </section>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+    <section class="page3">
+        <div class="circle">
+            <img class="circleimage" src="circles.svg" alt="">
+        </div>
+
+        <!-- <div class="cup">
+            <img src="Cup.svg" alt="">
+        </div> -->
+
+        <div class="P3img1">
+            <img src="P3img1.svg" alt="">
+        </div>
+
+        <div class="P3img2">
+            <img src="P3img2.svg" alt="">
+        </div>
+        <div class="P3img3">
+            <img src="P3img2.svg" alt="">
+        </div>
+        
+        <div class="mainheading">
+            Join Us for making Hangout
+        </div>
+
+        <div class="P3content">
+            Help us in usability testing of our product and make their way in Development.
+        </div>
+
+        <div class="joinButton">
+            <a
+                href="https://www.figma.com/proto/mQcaIpJYvCEZdFOlVMUZe9/Presentations?page-id=445%3A1828&node-id=502%3A1703&viewport=241%2C48%2C0.82&scaling=scale-down&starting-point-node-id=500%3A1672&show-proto-sidebar=1">
+                <img src="Join us button.svg" alt="">
+            </a>
+        </div>
+
+
+
+    </section>
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="page4">
+
+        <div class="lefthand">
+            <img src="Left hand.svg" alt="">
+        </div>
+
+        <div class="righthand">
+            <img src="Right hand.svg" alt="">
+        </div>
+
+        <div class="P4heading">
+            Meet our Team
+        </div>
+
+        <div class="P4content">
+            We are grateful to have friends more than team members who have showed their passion for the project even
+            though they know little of things but they found their ways to do the tasks. We thank each and every person
+            who has contributed in our project.
+        </div>
+
+        <div class="Team_Member">
+            <a href="Team_Member.html">
+                <img src="Team Member.svg" alt="">
+            </a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <footer>
+        <div class="copyright">
+            &copy Created with &hearts; from SQUADRON
+        </div>
+        <div class="pro">
+            Project Hangout
+        </div>
+
+        <div class="procont">
+            Enjoy the seamless experience of social audio app
+        </div>
+
+        <div class="about">
+            About
+        </div>
+        <div class="abtcont">
+            About Us Features News
+
+
+        </div>
+        <div class="service">
+            Our Services
+        </div>
+        <div class="sercont">
+            Pricing Discounts Shipping mod
+        </div>
+
+        <div class="company">
+            Our Company
+        </div>
+        <div class="compcont">
+            Blog About us Our mision
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
